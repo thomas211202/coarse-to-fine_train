@@ -1,0 +1,48 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Output files
+outputs/
+data/
+*.npy
+*.pt
+*.pth
+
+# Logs
+logs/
+logging/
+wandb/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+.pytest_cache/
+huggingface/
+
+# Test and vocab data
+tests/
+vocab/
